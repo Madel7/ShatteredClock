@@ -28,7 +28,7 @@ public class Target : MonoBehaviour
         {
             anim.SetTrigger("die");
         }
-
+        GameManager.instance.AddKill();
         Destroy(gameObject, 0.6f);
     }
 }

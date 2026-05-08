@@ -14,6 +14,11 @@ public class ZombieAI : MonoBehaviour
     float lastAttackTime;
     bool isDead = false;
 
+    public AudioSource audioSource;
+    public AudioClip deathSound;
+    public AudioClip attackSound;
+    public AudioClip walkSound;
+
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
@@ -33,18 +38,22 @@ public class ZombieAI : MonoBehaviour
 
         if (distance > attackRange)
         {
-            // ????
             agent.isStopped = false;
             agent.SetDestination(player.position);
 
             anim.SetBool("isRunning", true);
+            if (!audioSource.isPlaying)
+            {
+                audioSource.clip = walkSound;
+                audioSource.loop = true;
+                audioSource.Play();
+            }
         }
         else
         {
-            // ???? ?????
             agent.isStopped = true;
             anim.SetBool("isRunning", false);
-
+            audioSource.Stop();
             if (Time.time - lastAttackTime >= attackCooldown)
             {
                 Attack();
@@ -61,7 +70,7 @@ public class ZombieAI : MonoBehaviour
         {
             ph.TakeDamage(damage);
         }
-
+        audioSource.PlayOneShot(attackSound);
         lastAttackTime = Time.time;
     }
 
@@ -74,7 +83,7 @@ public class ZombieAI : MonoBehaviour
 
         anim.SetBool("isRunning", false);
         anim.SetTrigger("die");
-
+        audioSource.PlayOneShot(deathSound);
         this.enabled = false;
     }
 }

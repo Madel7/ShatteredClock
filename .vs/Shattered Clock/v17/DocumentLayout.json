@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\assets\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|solutionrelative:assets\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\assets\\zombieai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|solutionrelative:assets\\zombieai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|c:\\users\\muhammad\\desktop\\unity projects\\shattered clock\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|c:\\users\\muhammad\\desktop\\unity projects\\shattered clock\\assets\\memorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|solutionrelative:assets\\memorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|solutionrelative:assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\Assets\\Target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|solutionrelative:Assets\\Target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\assets\\zombieai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|solutionrelative:assets\\zombieai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\assets\\zombiespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|solutionrelative:assets\\zombiespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|solutionrelative:assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\assets\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|solutionrelative:assets\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|c:\\users\\muhammad\\desktop\\unity projects\\shattered clock\\assets\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|solutionrelative:assets\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\assets\\zombiespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|solutionrelative:assets\\zombiespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\Assets\\Target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|solutionrelative:Assets\\Target.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\assets\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F43019FC-DB28-6497-8468-E738AF4E5089}|Assembly-CSharp.csproj|solutionrelative:assets\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +42,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MemoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\Assets\\MemoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MemoryManager.cs",
+              "ToolTip": "C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\Assets\\MemoryManager.cs",
+              "RelativeToolTip": "Assets\\MemoryManager.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T23:15:58.889Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -50,36 +67,38 @@
               "RelativeToolTip": "Assets\\PlayerMovement.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAswDEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T02:27:31.632Z"
+              "WhenOpened": "2026-05-06T02:27:31.632Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "ZombieSpawner.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\Assets\\ZombieSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\ZombieSpawner.cs",
               "ToolTip": "C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\Assets\\ZombieSpawner.cs",
               "RelativeToolTip": "Assets\\ZombieSpawner.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAswBsAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T22:45:37.854Z"
+              "WhenOpened": "2026-05-04T22:45:37.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\Assets\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\GameManager.cs",
               "ToolTip": "C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\Assets\\GameManager.cs",
               "RelativeToolTip": "Assets\\GameManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAADwvxoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-04T22:36:27.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\Assets\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerHealth.cs",
@@ -92,19 +111,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ZombieAI.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\Assets\\ZombieAI.cs",
               "RelativeDocumentMoniker": "Assets\\ZombieAI.cs",
               "ToolTip": "C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\Assets\\ZombieAI.cs",
               "RelativeToolTip": "Assets\\ZombieAI.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAgwEUAAAAWAAAA",
+              "ViewState": "AQIAACwAAAAAAAAAAAAAADIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T21:55:36.971Z"
+              "WhenOpened": "2026-05-04T21:55:36.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Gun.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\Assets\\Gun.cs",
               "RelativeDocumentMoniker": "Assets\\Gun.cs",
@@ -116,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Target.cs",
               "DocumentMoniker": "C:\\Users\\Muhammad\\Desktop\\unity projects\\Shattered Clock\\Assets\\Target.cs",
               "RelativeDocumentMoniker": "Assets\\Target.cs",
@@ -124,8 +144,7 @@
               "RelativeToolTip": "Assets\\Target.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwB4AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T19:56:17.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T19:56:17.661Z"
             }
           ]
         }

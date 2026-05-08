@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI killText;
 
+    public MemoryManager memoryManager;
     void Awake()
     {
         instance = this;
@@ -21,9 +22,9 @@ public class GameManager : MonoBehaviour
 
         killText.text = "Kill: " + zombieKills;
 
-        if (zombieKills == 50)
+        if (zombieKills == 10)
         {
-            TriggerMemory();
+            memoryManager.UnlockMemory();
         }
     }
 

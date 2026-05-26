@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -8,22 +9,28 @@ public class PlayerHealth : MonoBehaviour
 
     public Slider healthBar;
 
-    [Header("Auto Heal")]
-    public float healDelay = 5f;      // ????? ??? ????? ??? ?????
-    public float healSpeed = 5f;      // ???? ????? (????? ???? ???? ????)
+    public float healDelay = 5f;
+    public float healSpeed = 5f;
 
     float lastDamageTime;
+
+    public GameObject deathPanel;
+
+    bool isDead = false;
 
     void Start()
     {
         health = maxHealth;
         healthBar.maxValue = maxHealth;
         healthBar.value = health;
+
+        deathPanel.SetActive(false);
     }
 
     void Update()
     {
-        // ?? ??? ??? ????? ?? ??? ???? ? ???? heal
+        if (isDead) return;
+
         if (Time.time - lastDamageTime > healDelay)
         {
             Heal();
@@ -32,10 +39,12 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        if (isDead) return;
+
         health -= damage;
         healthBar.value = health;
 
-        lastDamageTime = Time.time; // ???? ?????
+        lastDamageTime = Time.time;
 
         if (health <= 0)
         {
@@ -50,12 +59,29 @@ public class PlayerHealth : MonoBehaviour
             health += healSpeed * Time.deltaTime;
             healthBar.value = health;
         }
-
     }
 
     void Die()
     {
+        isDead = true;
+
         Debug.Log("You Died");
-        Time.timeScale = 0f;
+
+        deathPanel.SetActive(true);
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
+    public void Retry()
+    {
+        GameManager.instance.zombieKills = 0;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void ExitGame()
+    {
+        GameManager.instance.zombieKills = 0;
+        SceneManager.LoadScene("MainMenu");
     }
 }

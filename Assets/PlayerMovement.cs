@@ -4,12 +4,12 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
     public float mouseSensitivity = 200f;
+    public float gravity = -20f;
 
     public Transform playerBody;
     public CharacterController controller;
 
     float xRotation = 0f;
-    float gravity = -9.81f;
     Vector3 velocity;
 
     void Start()
@@ -37,12 +37,13 @@ public class PlayerMovement : MonoBehaviour
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = playerBody.right * x + playerBody.forward * z;
-
         controller.Move(move * speed * Time.deltaTime);
 
-        // Gravity fix
+        // Gravity (fixed)
         if (controller.isGrounded && velocity.y < 0)
+        {
             velocity.y = -2f;
+        }
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);

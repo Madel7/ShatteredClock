@@ -8,7 +8,7 @@ public class MemoryManager : MonoBehaviour
     int currentMemory = 0;
 
     public AudioSource audioSource;
-
+    public AudioClip fiveKillsSound;
     public void UnlockMemory()
     {
         if (currentMemory < clockParts.Length)
@@ -18,7 +18,9 @@ public class MemoryManager : MonoBehaviour
             clockParts[currentMemory].color = c;
 
             currentMemory++;
+
             audioSource.Play();
+            audioSource.PlayOneShot(fiveKillsSound);
 
             Debug.Log("Memory Restored: " + currentMemory);
         }
